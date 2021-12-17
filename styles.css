@@ -221,7 +221,9 @@ body {
 .experiences__company-project-responsibilities {
     color: var(--secondary-text-color);
     padding-left: 20px;
+   
 }
+
 
 .additional-info {
     flex: 1 1 40%;
@@ -266,4 +268,19 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+span {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.certificate-img {
+    border-radius: 2%;
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border: 3px solid;
+    border-color: var(--text-decoration-color);
+    margin-top: 10px;
 }
